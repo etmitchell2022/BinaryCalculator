@@ -15,8 +15,8 @@ public class Calculator {
 
 
     public String addNumber(String toAdd) {
-        int mainNumberInteger = Integer.parseInt(prevNumber,10);
-        int newNumberInteger = Integer.parseInt(toAdd,10);
+        int mainNumberInteger = Integer.parseInt(prevNumber,2);
+        int newNumberInteger = Integer.parseInt(toAdd,2);
         int result = mainNumberInteger + newNumberInteger;
 
         mainNumber = Integer.toString(result);
@@ -24,8 +24,8 @@ public class Calculator {
     }
 
     public String subtractNumber(String toSubtract) {
-        int mainNumberInteger = Integer.parseInt(prevNumber, 10);
-        int newNumberInteger = Integer.parseInt(toSubtract, 10);
+        int mainNumberInteger = Integer.parseInt(prevNumber, 2);
+        int newNumberInteger = Integer.parseInt(toSubtract, 2);
         int result = mainNumberInteger - newNumberInteger;
 
         mainNumber = Integer.toString(result);
@@ -33,8 +33,8 @@ public class Calculator {
     }
 
     public String multiplyNumber(String toMultiply) {
-        int mainNumberInteger = Integer.parseInt(prevNumber, 10);
-        int newNumberInteger = Integer.parseInt(toMultiply, 10);
+        int mainNumberInteger = Integer.parseInt(prevNumber, 2);
+        int newNumberInteger = Integer.parseInt(toMultiply, 2);
         int result = mainNumberInteger * newNumberInteger;
 
         mainNumber = Integer.toString(result);
@@ -42,8 +42,8 @@ public class Calculator {
     }
 
     public String divideNumber(String toDivide) {
-        int mainNumberInteger = Integer.parseInt(prevNumber, 10);
-        int newNumberInteger = Integer.parseInt(toDivide, 10);
+        int mainNumberInteger = Integer.parseInt(prevNumber, 2);
+        int newNumberInteger = Integer.parseInt(toDivide, 2);
         if (newNumberInteger != 0) {
             String result = Integer.toString(mainNumberInteger / newNumberInteger);
             String remainder = Integer.toString(mainNumberInteger % newNumberInteger);
