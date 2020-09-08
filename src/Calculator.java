@@ -47,7 +47,7 @@ public class Calculator {
         if (newNumberInteger != 0) {
             String result = Integer.toBinaryString(mainNumberInteger / newNumberInteger);
             String remainder = Integer.toBinaryString(mainNumberInteger % newNumberInteger);
-            mainNumber = result + "R" + remainder;
+            mainNumber = result; //+ "R" + remainder;
             return mainNumber;
         }else{
             mainNumber = "Error: cannot divide by 0";
