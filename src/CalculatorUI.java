@@ -54,48 +54,48 @@ public class CalculatorUI extends JFrame implements ActionListener {
 
 
         JButton squaredButton = new JButton("x^2");
-        var squaredButtonConstraints = new GridBagConstraints(1, 2, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
+        var squaredButtonConstraints = new GridBagConstraints(0, 4, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         squaredButton.addActionListener(this);
         panel.add(squaredButton, squaredButtonConstraints);
 
         JButton squarerootButton = new JButton("√");
-        var squarerootButtonConstraints = new GridBagConstraints(1, 3, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
+        var squarerootButtonConstraints = new GridBagConstraints(1, 4, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         squarerootButton.addActionListener(this);
         panel.add(squarerootButton, squarerootButtonConstraints);
 
 
         JButton plusButton = new JButton("+");
-        var plusButtonConstraints = new GridBagConstraints(2, 1, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
+        var plusButtonConstraints = new GridBagConstraints(0, 2, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         plusButton.addActionListener(this);
         panel.add(plusButton, plusButtonConstraints);
 
 
         JButton minusButton = new JButton("-");
-        var minusButtonConstraints = new GridBagConstraints(2, 2, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
+        var minusButtonConstraints = new GridBagConstraints(1, 2, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         minusButton.addActionListener(this);
         panel.add(minusButton, minusButtonConstraints);
 
 
         JButton multiplicationButton = new JButton("x");
-        var multiplicationButtonConstraints = new GridBagConstraints(2, 3, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
+        var multiplicationButtonConstraints = new GridBagConstraints(0, 3, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         multiplicationButton.addActionListener(this);
         panel.add(multiplicationButton, multiplicationButtonConstraints);
 
 
         JButton divisionButton = new JButton("÷");
-        var divisionButtonConstraints = new GridBagConstraints(2, 4, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
+        var divisionButtonConstraints = new GridBagConstraints(1, 3, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         divisionButton.addActionListener(this);
         panel.add(divisionButton, divisionButtonConstraints);
 
 
         JButton equalButton = new JButton("=");
-        var equalButtonConstraints = new GridBagConstraints(0, 2, 1, 2, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
+        var equalButtonConstraints = new GridBagConstraints(2, 1, 1, 2, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         equalButton.addActionListener(this);
         panel.add(equalButton, equalButtonConstraints);
 
 
         JButton clearButton = new JButton("C");
-        var clearButtonConstraints = new GridBagConstraints(0, 4, 2, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
+        var clearButtonConstraints = new GridBagConstraints(2, 3, 1, 2, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         clearButton.addActionListener(this);
         panel.add(clearButton, clearButtonConstraints);
 
