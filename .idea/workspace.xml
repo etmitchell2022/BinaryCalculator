@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47b20243-9b26-4162-86cd-4e630ff253c9" name="Default Changelist" comment="UI revisions, Draft 2">
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryCalculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CalculatorUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -43,7 +49,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.CalculatorUI">
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorTest.testDivideNumber">
     <configuration name="CalculatorUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculatorUI" />
       <module name="BinaryCalculator" />
@@ -51,18 +77,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testAddNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BinaryCalculator" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="testAddNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testDivideNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="testDivideNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testMultiplyNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="testMultiplyNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testSubtractNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="testSubtractNumber" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.testDivideNumber" />
+        <item itemvalue="JUnit.CalculatorTest.testMultiplyNumber" />
+        <item itemvalue="JUnit.CalculatorTest.testSubtractNumber" />
+        <item itemvalue="JUnit.CalculatorTest.testAddNumber" />
         <item itemvalue="Application.CalculatorUI" />
       </list>
     </recent_temporary>
@@ -119,31 +190,43 @@
     <option name="LAST_COMMIT_MESSAGE" value="UI revisions, Draft 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="254" key="GridCell.Tab.0.bottom" timestamp="1599589624655">
-      <screen x="0" y="23" width="1920" height="991" />
+    <state width="1116" height="267" key="GridCell.Tab.0.bottom" timestamp="1599595867157">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="1116" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599595867157" />
     <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1599589624655" />
-    <state width="1358" height="254" key="GridCell.Tab.0.center" timestamp="1599589624654">
-      <screen x="0" y="23" width="1920" height="991" />
+    <state width="1116" height="267" key="GridCell.Tab.0.center" timestamp="1599595867156">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="1116" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599595867156" />
     <state width="1358" height="254" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1599589624654" />
-    <state width="1358" height="254" key="GridCell.Tab.0.left" timestamp="1599589624653">
-      <screen x="0" y="23" width="1920" height="991" />
+    <state width="1116" height="267" key="GridCell.Tab.0.left" timestamp="1599595867155">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="1116" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599595867155" />
     <state width="1358" height="254" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1599589624653" />
-    <state width="1358" height="254" key="GridCell.Tab.0.right" timestamp="1599589624654">
-      <screen x="0" y="23" width="1920" height="991" />
+    <state width="1116" height="267" key="GridCell.Tab.0.right" timestamp="1599595867156">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="1116" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599595867156" />
     <state width="1358" height="254" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1599589624654" />
     <state x="667" y="272" key="Vcs.Push.Dialog.v2" timestamp="1599589824705">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
     <state x="667" y="272" key="Vcs.Push.Dialog.v2/0.23.1920.991@0.23.1920.991" timestamp="1599586407587" />
     <state x="667" y="272" key="Vcs.Push.Dialog.v2/0.23.1920.992@0.23.1920.992" timestamp="1599589824705" />
+    <state x="972" y="436" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599592628091">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="972" y="436" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.1027@0.23.1680.1027" timestamp="1599592628091" />
     <state x="876" y="517" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599589171067">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
     <state x="876" y="517" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.991@0.23.1920.991" timestamp="1599587134907" />
     <state x="876" y="517" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.992@0.23.1920.992" timestamp="1599589171067" />
+    <state x="1032" y="212" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599592639405">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="1032" y="212" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599592639405" />
   </component>
 </project>
