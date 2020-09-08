@@ -19,7 +19,7 @@ public class Calculator {
         int newNumberInteger = Integer.parseInt(toAdd,2);
         int result = mainNumberInteger + newNumberInteger;
 
-        mainNumber = Integer.toString(result);
+        mainNumber = Integer.toBinaryString(result);
         return mainNumber;
     }
 
@@ -28,7 +28,7 @@ public class Calculator {
         int newNumberInteger = Integer.parseInt(toSubtract, 2);
         int result = mainNumberInteger - newNumberInteger;
 
-        mainNumber = Integer.toString(result);
+        mainNumber = Integer.toBinaryString(result);
         return mainNumber;
     }
 
@@ -37,7 +37,7 @@ public class Calculator {
         int newNumberInteger = Integer.parseInt(toMultiply, 2);
         int result = mainNumberInteger * newNumberInteger;
 
-        mainNumber = Integer.toString(result);
+        mainNumber = Integer.toBinaryString(result);
         return mainNumber;
     }
 
@@ -45,8 +45,8 @@ public class Calculator {
         int mainNumberInteger = Integer.parseInt(prevNumber, 2);
         int newNumberInteger = Integer.parseInt(toDivide, 2);
         if (newNumberInteger != 0) {
-            String result = Integer.toString(mainNumberInteger / newNumberInteger);
-            String remainder = Integer.toString(mainNumberInteger % newNumberInteger);
+            String result = Integer.toBinaryString(mainNumberInteger / newNumberInteger);
+            String remainder = Integer.toBinaryString(mainNumberInteger % newNumberInteger);
             mainNumber = result + "R" + remainder;
             return mainNumber;
         }else{
