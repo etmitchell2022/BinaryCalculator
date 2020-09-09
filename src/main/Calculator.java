@@ -1,22 +1,22 @@
 public class Calculator {
 
-    String mainNumber="0";
+    String mainNumber = "0";
     String prevNumber;
     String operation;
 
 
-    public Calculator(){
+    public Calculator() {
         this("0");
     }
 
-    public Calculator(String mainNumber){
+    public Calculator(String mainNumber) {
         this.mainNumber = mainNumber;
     }
 
 
     public String addNumber(String toAdd) {
-        int mainNumberInteger = Integer.parseInt(prevNumber,2);
-        int newNumberInteger = Integer.parseInt(toAdd,2);
+        int mainNumberInteger = Integer.parseInt(prevNumber, 2);
+        int newNumberInteger = Integer.parseInt(toAdd, 2);
         int result = mainNumberInteger + newNumberInteger;
 
         mainNumber = Integer.toBinaryString(result);
@@ -49,47 +49,47 @@ public class Calculator {
             String remainder = Integer.toBinaryString(mainNumberInteger % newNumberInteger);
             mainNumber = result; //+ "R" + remainder;
             return mainNumber;
-        }else{
+        } else {
             mainNumber = "Error: cannot divide by 0";
             return mainNumber;
         }
     }
-/*
+
     public String squareNumber(String mainNumber) {
-        int mainNumberInteger = Integer.parseInt(mainNumber, 10);
-            String result = Integer.toBinaryString(mainNumberInteger*mainNumberInteger);
-            mainNumber = result;
-            return mainNumber
-
-        }
-
-
-
+        int mainNumberInteger = Integer.parseInt(mainNumber, 2);
+        String result = Integer.toBinaryString(mainNumberInteger * mainNumberInteger);
+        this.mainNumber = result;
+        return this.mainNumber;
     }
-*/
-    public void setOperation(String operation){
+
+    public String squareRootNumber(String mainNumber) {
+        int mainNumberInteger = Integer.parseInt(mainNumber, 2);
+        String result = Integer.toBinaryString((int) Math.sqrt(mainNumberInteger));
+        this.mainNumber = result;
+        return this.mainNumber;
+    }
+
+    public void setOperation(String operation) {
         this.operation = operation;
     }
 
-    public String getOperation(){
+    public String getOperation() {
         return operation;
     }
 
-    public void setPrevNumber(String prevNumber){
+    public void setPrevNumber(String prevNumber) {
         this.prevNumber = prevNumber;
     }
 
-    public String getPrevNumber(){
+    public String getPrevNumber() {
         return prevNumber;
     }
-
 
 
     public String addToMainNumber(String toAdd) {
         mainNumber += toAdd;
         return mainNumber;
     }
-
 
 
     public String getMainNumber() {
@@ -100,7 +100,7 @@ public class Calculator {
         mainNumber = "0";
     }
 
-    public void resetPreviousNumber(){
+    public void resetPreviousNumber() {
         prevNumber = "0";
     }
 
