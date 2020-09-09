@@ -105,8 +105,6 @@ public class CalculatorUI extends JFrame implements ActionListener {
         panel.add(toggleButton, toggleButtonConstraints);
 
 
-
-
         setPreferredSize(new Dimension(600, 600));
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         pack();
@@ -149,22 +147,30 @@ public class CalculatorUI extends JFrame implements ActionListener {
 
                 Calculator.resetMainNumber();
 
-            }//will need to add here
+            }
 
-
-
-
-
-
-        }
-        else if(((JButton) e.getSource()).getText().equals("C")) {
+        }else if(((JButton) e.getSource()).getText().equals("C")) {
             Calculator.resetMainNumber();
             Calculator.resetPreviousNumber();
 
             displayLabel.setText("0");
 
-        }
-        else{
+        }else if(((JButton) e.getSource()).getText().equals("Toggle")) {
+
+            Calculator.toggleNumber(text);
+            displayLabel.setText(Calculator.getMainNumber());
+
+        }else if(((JButton) e.getSource()).getText().equals("√")) {
+
+            Calculator.squareRootNumber(text);
+            displayLabel.setText(Calculator.getMainNumber());
+
+        }else if(((JButton) e.getSource()).getText().equals("x^2")) {
+
+            Calculator.squareNumber(text);
+            displayLabel.setText(Calculator.getMainNumber());
+
+        }else{
             Calculator.setOperation(((JButton) e.getSource()).getText());
             Calculator.storeAndResetMainNumber();
 
@@ -174,3 +180,4 @@ public class CalculatorUI extends JFrame implements ActionListener {
         }
     }
 }
+
