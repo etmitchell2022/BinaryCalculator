@@ -57,12 +57,13 @@ public class Calculator {
 /*
     public String squareNumber(String mainNumber) {
         int mainNumberInteger = Integer.parseInt(mainNumber, 10);
-        if (mainNumberInteger != 0){
-            String result = Integer.toString
-
-        }else{
+            String result = Integer.toBinaryString(mainNumberInteger*mainNumberInteger);
+            mainNumber = result;
+            return mainNumber
 
         }
+
+
 
     }
 */

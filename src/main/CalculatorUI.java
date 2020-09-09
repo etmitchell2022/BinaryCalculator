@@ -95,9 +95,15 @@ public class CalculatorUI extends JFrame implements ActionListener {
 
 
         JButton clearButton = new JButton("C");
-        var clearButtonConstraints = new GridBagConstraints(2, 3, 1, 2, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
+        var clearButtonConstraints = new GridBagConstraints(2, 4, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         clearButton.addActionListener(this);
         panel.add(clearButton, clearButtonConstraints);
+
+        JButton toggleButton = new JButton("Toggle");
+        var toggleButtonConstraints = new GridBagConstraints(2, 3, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
+        toggleButton.addActionListener(this);
+        panel.add(toggleButton, toggleButtonConstraints);
+
 
 
 
