@@ -22,43 +22,12 @@
     <list default="true" id="e0404fa8-622f-43f2-a924-05ac28d1d1c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BinaryCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryCalculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CalculatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CalculatorUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/CalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,13 +40,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/CalculatorTest.java" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="6" />
     <option name="width" value="3849" />
@@ -85,43 +47,6 @@
   </component>
   <component name="ProjectId" id="1hEoFI2Wsi3LHeJVdCfkDExmHwk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BinaryCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BinaryCalculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BinaryCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BinaryCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BinaryCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BinaryCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BinaryCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BinaryCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -147,19 +72,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="Application.CalculatorUI">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -171,10 +84,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculatorUI" />
+      <module name="BinaryCalculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BinaryCalculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,27 +130,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testSubtractNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BinaryCalculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="testSubtractNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorUI" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.testAddNumber" />
         <item itemvalue="JUnit.CalculatorTest.testDivideNumber" />
         <item itemvalue="JUnit.CalculatorTest.testMultiplyNumber" />
-        <item itemvalue="JUnit.CalculatorTest.testSubtractNumber" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -265,51 +176,12 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="2" y="0" width="1283" height="644" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34392828" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3003876" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3288719" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -328,6 +200,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UI first draft" />
@@ -336,35 +209,36 @@
     <option name="LAST_COMMIT_MESSAGE" value="UI revisions, Draft 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1116" height="267" key="GridCell.Tab.0.bottom" timestamp="1599595867157">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1358" height="254" key="GridCell.Tab.0.bottom" timestamp="1599664795645">
+      <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1116" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599595867157" />
-    <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1599589624655" />
-    <state width="1116" height="267" key="GridCell.Tab.0.center" timestamp="1599595867156">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1599664795645" />
+    <state width="1358" height="254" key="GridCell.Tab.0.center" timestamp="1599664795644">
+      <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1116" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599595867156" />
-    <state width="1358" height="254" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1599589624654" />
-    <state width="1116" height="267" key="GridCell.Tab.0.left" timestamp="1599595867155">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1358" height="254" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1599664795644" />
+    <state width="1358" height="254" key="GridCell.Tab.0.left" timestamp="1599664795643">
+      <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1116" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599595867155" />
-    <state width="1358" height="254" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1599589624653" />
-    <state width="1116" height="267" key="GridCell.Tab.0.right" timestamp="1599595867156">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1358" height="254" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1599664795643" />
+    <state width="1358" height="254" key="GridCell.Tab.0.right" timestamp="1599664795644">
+      <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1116" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599595867156" />
-    <state width="1358" height="254" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1599589624654" />
+    <state width="1358" height="254" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1599664795644" />
     <state x="667" y="272" key="Vcs.Push.Dialog.v2" timestamp="1599589824705">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
     <state x="667" y="272" key="Vcs.Push.Dialog.v2/0.23.1920.991@0.23.1920.991" timestamp="1599586407587" />
     <state x="667" y="272" key="Vcs.Push.Dialog.v2/0.23.1920.992@0.23.1920.992" timestamp="1599589824705" />
-    <state x="972" y="436" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599592628091">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="1111" y="422" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599664388209">
+      <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state x="972" y="436" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.1027@0.23.1680.1027" timestamp="1599592628091" />
+    <state x="1111" y="422" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1920.991@0.23.1920.991" timestamp="1599664388209" />
     <state x="876" y="517" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599589171067">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
@@ -374,27 +248,5 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="1032" y="212" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599592639405" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

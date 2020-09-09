@@ -45,14 +45,14 @@ public class CalculatorUI extends JFrame implements ActionListener {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-
                 Calculator.addToMainNumber("1");
                 displayLabel.setText(Calculator.getMainNumber());
+
             }
         });
         panel.add(button1, button1constraints);
 
-
+//would be cool to find a better symbol for this button
         JButton squaredButton = new JButton("x^2");
         var squaredButtonConstraints = new GridBagConstraints(0, 4, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         squaredButton.addActionListener(this);
@@ -105,68 +105,66 @@ public class CalculatorUI extends JFrame implements ActionListener {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         pack();
         setVisible(true);
+
     }
 
     public static void main(String[] args) {
         System.out.println("Running Binary Calculator");
         new CalculatorUI();
+
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
         String text = displayLabel.getText();
         String prevText = Calculator.getPrevNumber();
-        if (text!=null) {
 
-            if (text.contains("R")) {
-
-                text = text.substring(0, text.indexOf("R"));
-            }
-        }
-        if(prevText != null) {
-
-            if (prevText.contains("R")) {
-
-                Calculator.setPrevNumber(Calculator.getPrevNumber().substring(0, prevText.indexOf("R")));
-            }
-        }
         if (((JButton) e.getSource()).getText().equals("=")) {
 
             if(Calculator.getOperation().equals("+")){
 
                 Calculator.addNumber(text);
                 displayLabel.setText(Calculator.getMainNumber());
+
             }else if(Calculator.getOperation().equals("-")){
 
                 Calculator.subtractNumber(text);
                 displayLabel.setText(Calculator.getMainNumber());
+
             }else if(Calculator.getOperation().equals("x")){
 
                 Calculator.multiplyNumber(text);
                 displayLabel.setText(Calculator.getMainNumber());
+
             }else if(Calculator.getOperation().equals("÷")){
 
                 Calculator.divideNumber(text);
                 displayLabel.setText(Calculator.getMainNumber());
 
                 Calculator.resetMainNumber();
-            }
+
+            }//will need to add here
+
+
+
+
+
+
         }
         else if(((JButton) e.getSource()).getText().equals("C")) {
-
             Calculator.resetMainNumber();
             Calculator.resetPreviousNumber();
 
             displayLabel.setText("0");
+
         }
         else{
-
             Calculator.setOperation(((JButton) e.getSource()).getText());
             Calculator.storeAndResetMainNumber();
 
             displayLabel.setText(Calculator.getMainNumber());
             displayLabel.setText(Calculator.operation);
+
         }
     }
 }
