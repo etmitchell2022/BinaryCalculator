@@ -54,18 +54,21 @@ public class Calculator {
             return mainNumber;
         }
     }
-/*
+
     public String squareNumber(String mainNumber) {
-        int mainNumberInteger = Integer.parseInt(mainNumber, 10);
-        if (mainNumberInteger != 0){
-            String result = Integer.toString
-
-        }else{
-
-        }
-
+        int mainNumberInteger = Integer.parseInt(mainNumber, 2);
+        String result = Integer.toBinaryString(mainNumberInteger * mainNumberInteger);
+        this.mainNumber = result;
+        return this.mainNumber;
     }
-*/
+
+    public String squareRootNumber(String mainNumber) {
+        int mainNumberInteger = Integer.parseInt(mainNumber, 2);
+        String result = Integer.toBinaryString((int)Math.sqrt(mainNumberInteger));
+        this.mainNumber = result;
+        return this.mainNumber;
+    }
+
     public void setOperation(String operation){
         this.operation = operation;
     }

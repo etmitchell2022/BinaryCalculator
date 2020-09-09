@@ -151,6 +151,14 @@ public class CalculatorUI extends JFrame implements ActionListener {
                 displayLabel.setText(Calculator.getMainNumber());
 
                 Calculator.resetMainNumber();
+            }else if(Calculator.getOperation().equals("x^2")) {
+                Calculator.squareNumber(Calculator.getMainNumber());
+                displayLabel.setText(Calculator.getMainNumber());
+                Calculator.resetMainNumber();
+            }else if(Calculator.getOperation().equals("√")) {
+                Calculator.squareRootNumber(Calculator.getMainNumber());
+                displayLabel.setText(Calculator.getMainNumber());
+                Calculator.resetMainNumber();
             }
         }
         else if(((JButton) e.getSource()).getText().equals("C")) {
