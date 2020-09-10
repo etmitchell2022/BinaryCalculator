@@ -1,9 +1,9 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class CalculatorTest {
+class CalculatorTest {
     @Test
-    public void testAddNumber() {
+    void testAddNumber() {
         Calculator calculator = new Calculator();
         calculator.setPrevNumber("1");
         String actual = calculator.addNumber("1");
@@ -11,7 +11,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testSubtractNumber() {
+    void testSubtractNumber() {
         Calculator calculator = new Calculator();
         calculator.setPrevNumber("1");
         String actual = calculator.subtractNumber("1");
@@ -19,7 +19,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testMultiplyNumber() {
+    void testMultiplyNumber() {
         Calculator calculator = new Calculator();
         calculator.setPrevNumber("10");
         String actual = calculator.multiplyNumber("10");
@@ -27,7 +27,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDivideNumber() {
+    void testDivideNumber() {
         Calculator calculator = new Calculator();
         calculator.setPrevNumber("100");
         String actual = calculator.divideNumber("10");
@@ -35,7 +35,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testSquareRoot() {
+    void testSquareRoot() {
         Calculator calculator = new Calculator();
         calculator.setPrevNumber("100");
         String actual = calculator.squareRootNumber("100");
@@ -44,7 +44,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testSquareNumber() {
+    void testSquareNumber() {
         Calculator calculator = new Calculator();
         calculator.setPrevNumber("10");
         String actual = calculator.squareNumber("10");
