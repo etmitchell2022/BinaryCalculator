@@ -33,8 +33,23 @@ public class CalculatorTest {
         String actual = calculator.divideNumber("10");
         Assertions.assertEquals("10", actual);
     }
-//    @Test
-//    void test(){
-//        Assert.assertEquals();
-//    }
+
+    @Test
+    public void testSquareRoot() {
+        Calculator calculator = new Calculator();
+        calculator.setPrevNumber("100");
+        String actual = calculator.squareRootNumber("100");
+        System.out.println(actual);
+        Assertions.assertEquals("10", actual);
+    }
+
+    @Test
+    public void testSquareNumber() {
+        Calculator calculator = new Calculator();
+        calculator.setPrevNumber("");
+        String actual = calculator.squareRootNumber("");
+        System.out.println(actual);
+        Assertions.assertEquals("", actual);
+
+    }
 }
