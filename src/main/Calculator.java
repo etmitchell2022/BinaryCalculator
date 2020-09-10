@@ -1,9 +1,11 @@
+import java.sql.SQLOutput;
+
 public class Calculator {
 
-    String mainNumber = "0";
+    String mainNumber;
     String prevNumber;
     String operation;
-
+    boolean isBinary = true;
 
     public Calculator() {
         this("0");
@@ -12,7 +14,6 @@ public class Calculator {
     public Calculator(String mainNumber) {
         this.mainNumber = mainNumber;
     }
-
 
     public String addNumber(String toAdd) {
         int mainNumberInteger = Integer.parseInt(prevNumber, 2);
@@ -55,18 +56,27 @@ public class Calculator {
         }
     }
 
-    public String squareNumber(String mainNumber) {
-        int mainNumberInteger = Integer.parseInt(mainNumber, 2);
-        String result = Integer.toBinaryString(mainNumberInteger * mainNumberInteger);
-        this.mainNumber = result;
-        return this.mainNumber;
+    public String squareNumber(String toSquare) {
+        int mainNumberInteger = Integer.parseInt(toSquare, 2);
+        mainNumber = Integer.toBinaryString(mainNumberInteger * mainNumberInteger);
+        return mainNumber;
     }
 
-    public String squareRootNumber(String mainNumber) {
-        int mainNumberInteger = Integer.parseInt(mainNumber, 2);
-        String result = Integer.toBinaryString((int) Math.sqrt(mainNumberInteger));
-        this.mainNumber = result;
-        return this.mainNumber;
+    public String squareRootNumber(String toSquareRoot) {
+        int mainNumberInteger = Integer.parseInt(toSquareRoot, 2);
+        mainNumber = Integer.toBinaryString((int) Math.sqrt(mainNumberInteger));
+        return mainNumber;
+    }
+
+    public String toggleNumber(String toToggle) {
+        if(isBinary) {
+            mainNumber = Integer.toString(Integer.parseInt(toToggle, 2)); // binary to decimal
+            isBinary = false;
+        }else {
+            mainNumber = Integer.toBinaryString(Integer.parseInt(toToggle, 10));
+            isBinary = true;
+        }
+        return mainNumber;
     }
 
     public void setOperation(String operation) {
