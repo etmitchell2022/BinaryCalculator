@@ -39,7 +39,6 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         calculator.setPrevNumber("100");
         String actual = calculator.squareRootNumber("100");
-        System.out.println(actual);
         Assertions.assertEquals("10", actual);
     }
 
@@ -48,7 +47,6 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         calculator.setPrevNumber("10");
         String actual = calculator.squareNumber("10");
-        System.out.println(actual);
         Assertions.assertEquals("100", actual);
 
     }

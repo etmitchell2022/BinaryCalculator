@@ -21,60 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e0404fa8-622f-43f2-a924-05ac28d1d1c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryCalculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-214">
-              <caret line="76" column="28" lean-forward="true" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-              <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#2422#2423#0" expanded="true" />
-                <element signature="e#2464#2465#0" expanded="true" />
-                <element signature="e#2500#2501#0" expanded="true" />
-                <element signature="e#2532#2533#0" expanded="true" />
-                <element signature="e#2584#2585#0" expanded="true" />
-                <element signature="e#2628#2629#0" expanded="true" />
-                <element signature="e#2665#2666#0" expanded="true" />
-                <element signature="e#2698#2699#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/CalculatorUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/CalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,53 +47,8 @@
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/test/CalculatorTest.java" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="1hEoFI2Wsi3LHeJVdCfkDExmHwk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BinaryCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BinaryCalculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BinaryCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BinaryCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BinaryCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BinaryCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BinaryCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BinaryCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -149,6 +58,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599746519223" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -168,33 +79,23 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="JUnit.CalculatorTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="CalculatorUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculatorUI" />
+      <module name="BinaryCalculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalculatorUI" />
-      <module name="BinaryCalculator" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,6 +104,7 @@
       <module name="BinaryCalculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -240,24 +142,25 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.testSquareNumber" />
         <item itemvalue="Application.CalculatorUI" />
+        <item itemvalue="JUnit.CalculatorTest.testSquareNumber" />
         <item itemvalue="JUnit.CalculatorTest.testAddNumber" />
         <item itemvalue="JUnit.CalculatorTest.testDivideNumber" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="47b20243-9b26-4162-86cd-4e630ff253c9" name="Default Changelist" comment="" />
+      <changelist id="e0404fa8-622f-43f2-a924-05ac28d1d1c0" name="Default Changelist" comment="" />
       <created>1599585506966</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599585506966</updated>
+      <workItem from="1599770220758" duration="2384000" />
     </task>
     <task id="LOCAL-00001" summary="UI first draft">
       <created>1599585909363</created>
@@ -297,74 +200,15 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="CalculatorTest_testSquareNumber - 2020.09.10 at 09h 42m 51s.xml">
-      <configuration name="CalculatorTest.testSquareNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testSquareNumber - 2020.09.10 at 09h 43m 09s.xml">
-      <configuration name="CalculatorTest.testSquareNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testSquareNumber - 2020.09.10 at 09h 43m 34s.xml">
-      <configuration name="CalculatorTest.testSquareNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testSquareNumber - 2020.09.10 at 09h 55m 51s.xml">
-      <configuration name="CalculatorTest.testSquareNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testSquareNumber - 2020.09.10 at 09h 56m 42s.xml">
-      <configuration name="CalculatorTest.testSquareNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testSquareNumber - 2020.09.10 at 09h 57m 01s.xml">
-      <configuration name="CalculatorTest.testSquareNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testSquareNumber - 2020.09.10 at 09h 57m 47s.xml">
-      <configuration name="CalculatorTest.testSquareNumber" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15453075" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32978722" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -383,6 +227,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UI first draft" />
@@ -393,39 +238,47 @@
     <option name="LAST_COMMIT_MESSAGE" value="squareRoot and squareNumber tests pass and are complete" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="267" key="GridCell.Tab.0.bottom" timestamp="1599676347311">
+    <state x="678" y="237" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1599770833741">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599676347311" />
+    <state x="678" y="237" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599770833741" />
+    <state x="578" y="298" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1599770870086">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="578" y="298" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599770870086" />
+    <state width="1638" height="267" key="GridCell.Tab.0.bottom" timestamp="1599772845216">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599772845216" />
     <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1599664795645" />
-    <state width="1638" height="267" key="GridCell.Tab.0.center" timestamp="1599676347309">
+    <state width="1638" height="267" key="GridCell.Tab.0.center" timestamp="1599772845216">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599676347309" />
+    <state width="1638" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599772845216" />
     <state width="1358" height="254" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1599664795644" />
-    <state width="1638" height="267" key="GridCell.Tab.0.left" timestamp="1599676347308">
+    <state width="1638" height="267" key="GridCell.Tab.0.left" timestamp="1599772845215">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599676347308" />
+    <state width="1638" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599772845215" />
     <state width="1358" height="254" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1599664795643" />
-    <state width="1638" height="267" key="GridCell.Tab.0.right" timestamp="1599676347310">
+    <state width="1638" height="267" key="GridCell.Tab.0.right" timestamp="1599772845216">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599676347310" />
+    <state width="1638" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599772845216" />
     <state width="1358" height="254" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1599664795644" />
-    <state x="328" y="118" key="SettingsEditor" timestamp="1599674878232">
+    <state x="328" y="118" key="SettingsEditor" timestamp="1599772073456">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="328" y="118" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599674878232" />
+    <state x="328" y="118" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599772073456" />
     <state x="667" y="272" key="Vcs.Push.Dialog.v2" timestamp="1599665173613">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
     <state x="667" y="272" key="Vcs.Push.Dialog.v2/0.23.1920.991@0.23.1920.991" timestamp="1599586407587" />
     <state x="667" y="272" key="Vcs.Push.Dialog.v2/0.23.1920.992@0.23.1920.992" timestamp="1599665173613" />
-    <state x="1111" y="422" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599664388209">
-      <screen x="0" y="23" width="1920" height="991" />
+    <state x="972" y="436" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599772124356">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="972" y="436" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.1027@0.23.1680.1027" timestamp="1599592628091" />
+    <state x="972" y="436" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.1027@0.23.1680.1027" timestamp="1599772124356" />
     <state x="1111" y="422" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1920.991@0.23.1920.991" timestamp="1599664388209" />
     <state x="876" y="517" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599670188610">
       <screen x="0" y="23" width="1920" height="992" />
@@ -436,45 +289,5 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="1032" y="212" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1599592639405" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/CalculatorUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="76" column="28" lean-forward="true" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#2422#2423#0" expanded="true" />
-            <element signature="e#2464#2465#0" expanded="true" />
-            <element signature="e#2500#2501#0" expanded="true" />
-            <element signature="e#2532#2533#0" expanded="true" />
-            <element signature="e#2584#2585#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
-            <element signature="e#2665#2666#0" expanded="true" />
-            <element signature="e#2698#2699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
