@@ -69,10 +69,10 @@ public class Calculator {
     }
 
     public String toggleNumber(String toToggle) {
-        if(isBinary) {
+        if (isBinary) {
             mainNumber = Integer.toString(Integer.parseInt(toToggle, 2)); // binary to decimal
             isBinary = false;
-        }else {
+        } else {
             mainNumber = Integer.toBinaryString(Integer.parseInt(toToggle, 10));
             isBinary = true;
         }

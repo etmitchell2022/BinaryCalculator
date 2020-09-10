@@ -46,10 +46,10 @@ public class CalculatorTest {
     @Test
     public void testSquareNumber() {
         Calculator calculator = new Calculator();
-        calculator.setPrevNumber("");
-        String actual = calculator.squareRootNumber("");
+        calculator.setPrevNumber("10");
+        String actual = calculator.squareNumber("10");
         System.out.println(actual);
-        Assertions.assertEquals("", actual);
+        Assertions.assertEquals("100", actual);
 
     }
 }
