@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0404fa8-622f-43f2-a924-05ac28d1d1c0" name="Default Changelist" comment="Fix subtractNumber and multiplyNumber" />
+    <list default="true" id="e0404fa8-622f-43f2-a924-05ac28d1d1c0" name="Default Changelist" comment="Clean up code in CalculatorUI" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599773000196</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Clean up code in CalculatorUI">
+      <created>1599844960581</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599844960581</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +245,8 @@
     <MESSAGE value="attempting to clean up the UI code" />
     <MESSAGE value="squareRoot and squareNumber tests pass and are complete" />
     <MESSAGE value="Fix subtractNumber and multiplyNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix subtractNumber and multiplyNumber" />
+    <MESSAGE value="Clean up code in CalculatorUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up code in CalculatorUI" />
   </component>
   <component name="WindowStateProjectService">
     <state x="678" y="237" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1599770833741">
@@ -279,11 +287,12 @@
     <state x="584" y="281" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1599773019505" />
     <state x="667" y="272" key="Vcs.Push.Dialog.v2/0.23.1920.991@0.23.1920.991" timestamp="1599586407587" />
     <state x="667" y="272" key="Vcs.Push.Dialog.v2/0.23.1920.992@0.23.1920.992" timestamp="1599665173613" />
-    <state x="972" y="436" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599772124356">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="1481" y="552" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599844644956">
+      <screen x="0" y="23" width="2560" height="1315" />
     </state>
     <state x="972" y="436" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.1027@0.23.1680.1027" timestamp="1599772124356" />
     <state x="1111" y="422" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1920.991@0.23.1920.991" timestamp="1599664388209" />
+    <state x="1481" y="552" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.2560.1315@0.23.2560.1315" timestamp="1599844644956" />
     <state x="876" y="517" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599670188610">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
