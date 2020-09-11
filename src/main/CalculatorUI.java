@@ -145,7 +145,6 @@ public class CalculatorUI extends JFrame implements ActionListener {
                 displayLabel.setText(Calculator.getMainNumber());
 
                 Calculator.resetMainNumber();
-
             }
 
         } else if (((JButton) e.getSource()).getText().equals("C")) {

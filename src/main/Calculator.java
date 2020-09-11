@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Calculator {
 
     String mainNumber;
@@ -16,6 +14,7 @@ public class Calculator {
     }
 
     public String addNumber(String toAdd) {
+        prevNumber = revertToBinary(prevNumber);
         int mainNumberInteger = Integer.parseInt(prevNumber, 2);
         int newNumberInteger = Integer.parseInt(toAdd, 2);
         int result = mainNumberInteger + newNumberInteger;
@@ -25,6 +24,7 @@ public class Calculator {
     }
 
     public String subtractNumber(String toSubtract) {
+        prevNumber = revertToBinary(prevNumber);
         int mainNumberInteger = Integer.parseInt(prevNumber, 2);
         int newNumberInteger = Integer.parseInt(toSubtract, 2);
         int result = mainNumberInteger - newNumberInteger;
@@ -34,6 +34,7 @@ public class Calculator {
     }
 
     public String multiplyNumber(String toMultiply) {
+        prevNumber = revertToBinary(prevNumber);
         int mainNumberInteger = Integer.parseInt(prevNumber, 2);
         int newNumberInteger = Integer.parseInt(toMultiply, 2);
         int result = mainNumberInteger * newNumberInteger;
@@ -43,40 +44,39 @@ public class Calculator {
     }
 
     public String divideNumber(String toDivide) {
+        prevNumber = revertToBinary(prevNumber);
         int mainNumberInteger = Integer.parseInt(prevNumber, 2);
         int newNumberInteger = Integer.parseInt(toDivide, 2);
         if (newNumberInteger != 0) {
-            String result = Integer.toBinaryString(mainNumberInteger / newNumberInteger);
-            String remainder = Integer.toBinaryString(mainNumberInteger % newNumberInteger);
-            mainNumber = result; //+ "R" + remainder;
-            return mainNumber;
+            mainNumber = Integer.toBinaryString(mainNumberInteger / newNumberInteger);
         } else {
             mainNumber = "Error: cannot divide by 0";
-            return mainNumber;
         }
+        return mainNumber;
     }
 
     public String squareNumber(String toSquare) {
+        toSquare = revertToBinary(toSquare);
         int mainNumberInteger = Integer.parseInt(toSquare, 2);
         mainNumber = Integer.toBinaryString(mainNumberInteger * mainNumberInteger);
         return mainNumber;
     }
 
     public String squareRootNumber(String toSquareRoot) {
+        toSquareRoot = revertToBinary(toSquareRoot);
         int mainNumberInteger = Integer.parseInt(toSquareRoot, 2);
         mainNumber = Integer.toBinaryString((int) Math.sqrt(mainNumberInteger));
         return mainNumber;
     }
 
-    public String toggleNumber(String toToggle) {
+    public void toggleNumber(String toToggle) {
         if (isBinary) {
-            mainNumber = Integer.toString(Integer.parseInt(toToggle, 2)); // binary to decimal
+            mainNumber = Integer.toString(Integer.parseInt(toToggle, 2));
             isBinary = false;
         } else {
             mainNumber = Integer.toBinaryString(Integer.parseInt(toToggle, 10));
             isBinary = true;
         }
-        return mainNumber;
     }
 
     public void setOperation(String operation) {
@@ -96,9 +96,8 @@ public class Calculator {
     }
 
 
-    public String addToMainNumber(String toAdd) {
+    public void addToMainNumber(String toAdd) {
         mainNumber += toAdd;
-        return mainNumber;
     }
 
 
@@ -117,5 +116,14 @@ public class Calculator {
     public void storeAndResetMainNumber() {
         prevNumber = mainNumber;
         resetMainNumber();
+    }
+
+    public String revertToBinary(String number) {
+        if (!this.isBinary) {
+            number = Integer.toBinaryString(Integer.parseInt(number, 10));
+            isBinary = true;
+            return number;
+        }
+        return number;
     }
 }
