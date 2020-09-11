@@ -18,6 +18,6 @@ Task Distribution:
 1.Evan Knapke
 2.Evan Mitchell
 3.Noah Ziems
-4.Haden Foster
+4.Haden Foster = functionality of plus, minus, multiplication, division in calculator class. wrote everything in the UI besides the implementation of the square and square root button
 5.Corbin Curnutt
 
