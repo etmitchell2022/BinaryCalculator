@@ -38,7 +38,6 @@ public class CalculatorUI extends JFrame implements ActionListener {
         panel.add(button0, button0constraints);
 
 
-
         JButton button1 = new JButton("1");
         var button1constraints = new GridBagConstraints(0, 1, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         button1.addActionListener(new ActionListener() {
@@ -53,7 +52,7 @@ public class CalculatorUI extends JFrame implements ActionListener {
         panel.add(button1, button1constraints);
 
 //would be cool to find a better symbol for this button
-        JButton squaredButton = new JButton("x^2");
+        JButton squaredButton = new JButton("x²");
         var squaredButtonConstraints = new GridBagConstraints(0, 4, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         squaredButton.addActionListener(this);
         panel.add(squaredButton, squaredButtonConstraints);
@@ -125,22 +124,22 @@ public class CalculatorUI extends JFrame implements ActionListener {
 
         if (((JButton) e.getSource()).getText().equals("=")) {
 
-            if(Calculator.getOperation().equals("+")){
+            if (Calculator.getOperation().equals("+")) {
 
                 Calculator.addNumber(text);
                 displayLabel.setText(Calculator.getMainNumber());
 
-            }else if(Calculator.getOperation().equals("-")){
+            } else if (Calculator.getOperation().equals("-")) {
 
                 Calculator.subtractNumber(text);
                 displayLabel.setText(Calculator.getMainNumber());
 
-            }else if(Calculator.getOperation().equals("x")){
+            } else if (Calculator.getOperation().equals("x")) {
 
                 Calculator.multiplyNumber(text);
                 displayLabel.setText(Calculator.getMainNumber());
 
-            }else if(Calculator.getOperation().equals("÷")){
+            } else if (Calculator.getOperation().equals("÷")) {
 
                 Calculator.divideNumber(text);
                 displayLabel.setText(Calculator.getMainNumber());
@@ -149,28 +148,28 @@ public class CalculatorUI extends JFrame implements ActionListener {
 
             }
 
-        }else if(((JButton) e.getSource()).getText().equals("C")) {
+        } else if (((JButton) e.getSource()).getText().equals("C")) {
             Calculator.resetMainNumber();
             Calculator.resetPreviousNumber();
 
             displayLabel.setText("0");
 
-        }else if(((JButton) e.getSource()).getText().equals("Toggle")) {
+        } else if (((JButton) e.getSource()).getText().equals("Toggle")) {
 
             Calculator.toggleNumber(text);
             displayLabel.setText(Calculator.getMainNumber());
 
-        }else if(((JButton) e.getSource()).getText().equals("√")) {
+        } else if (((JButton) e.getSource()).getText().equals("√")) {
 
             Calculator.squareRootNumber(text);
             displayLabel.setText(Calculator.getMainNumber());
 
-        }else if(((JButton) e.getSource()).getText().equals("x^2")) {
+        } else if (((JButton) e.getSource()).getText().equals("x²")) {
 
             Calculator.squareNumber(text);
             displayLabel.setText(Calculator.getMainNumber());
 
-        }else{
+        } else {
             Calculator.setOperation(((JButton) e.getSource()).getText());
             Calculator.storeAndResetMainNumber();
 
