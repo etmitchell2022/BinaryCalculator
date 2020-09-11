@@ -6,14 +6,14 @@ import java.awt.event.ActionListener;
 
 public class CalculatorUI extends JFrame implements ActionListener {
 
-    Calculator Calculator = new Calculator();
+    Calculator calculator = new Calculator();
     JLabel displayLabel;
 
     public CalculatorUI() {
 
         super("Binary Calculator");
 
-        //bigger fonts
+
         UIManager.put("Label.font", new FontUIResource(new Font("Dialog", Font.PLAIN, 15)));
         UIManager.put("Button.font", new FontUIResource(new Font("Dialog", Font.BOLD, 15)));
 
@@ -32,8 +32,8 @@ public class CalculatorUI extends JFrame implements ActionListener {
         JButton button0 = new JButton("0");
         var button0constraints = new GridBagConstraints(1, 1, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         button0.addActionListener(e -> {
-            Calculator.addToMainNumber("0");
-            displayLabel.setText(Calculator.getMainNumber());
+            calculator.addToMainNumber("0");
+            displayLabel.setText(calculator.getMainNumber());
         });
         panel.add(button0, button0constraints);
 
@@ -44,14 +44,14 @@ public class CalculatorUI extends JFrame implements ActionListener {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                Calculator.addToMainNumber("1");
-                displayLabel.setText(Calculator.getMainNumber());
+                calculator.addToMainNumber("1");
+                displayLabel.setText(calculator.getMainNumber());
 
             }
         });
         panel.add(button1, button1constraints);
 
-//would be cool to find a better symbol for this button
+
         JButton squaredButton = new JButton("x²");
         var squaredButtonConstraints = new GridBagConstraints(0, 4, 1, 1, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets(1, 1, 1, 1), 0, 0);
         squaredButton.addActionListener(this);
@@ -112,7 +112,7 @@ public class CalculatorUI extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        System.out.println("Running Binary Calculator");
+
         new CalculatorUI();
 
     }
@@ -120,60 +120,60 @@ public class CalculatorUI extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         String text = displayLabel.getText();
-        String prevText = Calculator.getPrevNumber();
+        String prevText = calculator.getPrevNumber();
 
         if (((JButton) e.getSource()).getText().equals("=")) {
 
-            if (Calculator.getOperation().equals("+")) {
+            if (calculator.getOperation().equals("+")) {
 
-                Calculator.addNumber(text);
-                displayLabel.setText(Calculator.getMainNumber());
+                calculator.addNumber(text);
+                displayLabel.setText(calculator.getMainNumber());
 
-            } else if (Calculator.getOperation().equals("-")) {
+            } else if (calculator.getOperation().equals("-")) {
 
-                Calculator.subtractNumber(text);
-                displayLabel.setText(Calculator.getMainNumber());
+                calculator.subtractNumber(text);
+                displayLabel.setText(calculator.getMainNumber());
 
-            } else if (Calculator.getOperation().equals("x")) {
+            } else if (calculator.getOperation().equals("x")) {
 
-                Calculator.multiplyNumber(text);
-                displayLabel.setText(Calculator.getMainNumber());
+                calculator.multiplyNumber(text);
+                displayLabel.setText(calculator.getMainNumber());
 
-            } else if (Calculator.getOperation().equals("÷")) {
+            } else if (calculator.getOperation().equals("÷")) {
 
-                Calculator.divideNumber(text);
-                displayLabel.setText(Calculator.getMainNumber());
+                calculator.divideNumber(text);
+                displayLabel.setText(calculator.getMainNumber());
 
-                Calculator.resetMainNumber();
+                calculator.resetMainNumber();
             }
 
         } else if (((JButton) e.getSource()).getText().equals("C")) {
-            Calculator.resetMainNumber();
-            Calculator.resetPreviousNumber();
+            calculator.resetMainNumber();
+            calculator.resetPreviousNumber();
 
             displayLabel.setText("0");
 
         } else if (((JButton) e.getSource()).getText().equals("Toggle")) {
 
-            Calculator.toggleNumber(text);
-            displayLabel.setText(Calculator.getMainNumber());
+            calculator.toggleNumber(text);
+            displayLabel.setText(calculator.getMainNumber());
 
         } else if (((JButton) e.getSource()).getText().equals("√")) {
 
-            Calculator.squareRootNumber(text);
-            displayLabel.setText(Calculator.getMainNumber());
+            calculator.squareRootNumber(text);
+            displayLabel.setText(calculator.getMainNumber());
 
         } else if (((JButton) e.getSource()).getText().equals("x²")) {
 
-            Calculator.squareNumber(text);
-            displayLabel.setText(Calculator.getMainNumber());
+            calculator.squareNumber(text);
+            displayLabel.setText(calculator.getMainNumber());
 
         } else {
-            Calculator.setOperation(((JButton) e.getSource()).getText());
-            Calculator.storeAndResetMainNumber();
+            calculator.setOperation(((JButton) e.getSource()).getText());
+            calculator.storeAndResetMainNumber();
 
-            displayLabel.setText(Calculator.getMainNumber());
-            displayLabel.setText(Calculator.operation);
+            displayLabel.setText(calculator.getMainNumber());
+            displayLabel.setText(calculator.operation);
 
         }
     }

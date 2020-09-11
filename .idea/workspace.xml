@@ -75,13 +75,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CalculatorTest">
-    <configuration name="CalculatorUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalculatorUI" />
-      <module name="BinaryCalculator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -91,6 +84,13 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculatorUI" />
+      <module name="BinaryCalculator" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
