@@ -16,8 +16,8 @@ Meeting 3: 9/10/2020 at 1:00PM
   
 Task Distribution:
 1.Evan Knapke
-2.Evan Mitchell
-3.Noah Ziems = functionality of square root and square. Fix of some radix bugs.
-4.Haden Foster = functionality of plus, minus, multiplication, division in calculator class. wrote everything in the UI besides the implementation of the square and square root button
+2.Evan Mitchell = Completed tests for squareRoot and squareNumber. Made minor UI changes and removed warnings.
+3.Noah Ziems
+4.Haden Foster
 5.Corbin Curnutt
 
