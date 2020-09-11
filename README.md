@@ -15,9 +15,9 @@ Meeting 3: 9/10/2020 at 1:00PM
   Topics discussed: Finalized the project and made final commits. Finished README and submitted project.
   
 Task Distribution:
-1.Evan Knapke
+1.Evan Knapke = Created .gitignore. Created some tests. Created toggle number functionality. Plugged toggle, square, and square root into UI. Miscellaneous refactoring.
 2.Evan Mitchell = Completed tests for squareRoot and squareNumber. Made minor UI changes and removed warnings.
-3.Noah Ziems
-4.Haden Foster
-5.Corbin Curnutt
+3.Noah Ziems = functionality of square root and square. Fix of some radix bugs.
+4.Haden Foster = functionality of plus, minus, division, multiplication in calculator.java, Everything in CalculatorUI.java besides the implementation of the square and square root functionality
+5.Corbin Curnutt = cleaned up code in CalculatorUI.
 
