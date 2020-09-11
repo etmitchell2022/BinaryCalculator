@@ -14,7 +14,7 @@ Meeting 3: 9/10/2020 at 1:00PM
   Attendees: Evan Knapke, Evan Mitchell, Noah Ziems, Corbin Curnutt, and Haden Foster
   Topics discussed: Finalized the project and made final commits. Finished README and submitted project.
   
-Task Distribution:
+Task Distribution:  
 1.Evan Knapke = Created .gitignore. Created some tests. Created toggle number functionality. Plugged toggle, square, and square root into UI. Miscellaneous refactoring.  
 2.Evan Mitchell = Completed tests for squareRoot and squareNumber. Made minor UI changes and removed warnings.  
 3.Noah Ziems = functionality of square root and square. Fix of some radix bugs.  
